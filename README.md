@@ -2,6 +2,8 @@
 
 This repository demonstrates common Python packaging concepts and potential issues, particularly focusing on namespace package collisions.
 
+📝 **[Read the detailed blog post: "Adventures in Python Packaging: Understanding Namespace Collisions"](Journey_With_Python_Packaging.md)**
+
 ## Project Structure
 
 ```
@@ -82,6 +84,8 @@ This repository helps you understand:
 - Common issues with namespace collisions
 - Package distribution and importing mechanisms
 - Best practices for organizing related Python packages
+
+For a detailed walkthrough of what I learned during this project, see the [Journey with Python Packaging](Journey_With_Python_Packaging.md) blog post.
 
 ## Development Setup
 
