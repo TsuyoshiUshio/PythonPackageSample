@@ -1,0 +1,21 @@
+[project]
+name = "azure-functions-agent-framework"
+version = "0.1.0"
+description = "A minimal agent framework for Azure Functions."
+authors = [{ name = "Tsuyoshi Ushio", email = "you@example.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.7"
+
+dependencies = [
+    "example-helloworld"
+]
+
+[tool.setuptools.packages.find]
+exclude = [
+    'azurefunctions.agents',
+    'azurefunctions', 'tests', 'samples'
+    ]
+include = [
+    'azurefunctions.agents.framework'
+    ]

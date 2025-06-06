@@ -1,0 +1,8 @@
+[project]
+name = "sample-project"
+version = "0.1.0"
+description = "A sample project that uses azure-functions-agent-durable and azure-functions-agents-framework."
+authors = [{ name = "Tsuyoshi Ushio", email = "you@example.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.7"

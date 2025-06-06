@@ -1,0 +1,14 @@
+[project]
+name = "azure-functions-agent-durable"
+version = "0.1.0"
+description = "A minimal durable agent for Azure Functions."
+authors = [{ name = "Tsuyoshi Ushio", email = "you@example.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.7"
+
+[tool.setuptools.packages.find]
+exclude = [
+    'azurefunctions.agents',
+    'azurefunctions', 'tests', 'samples'
+    ]
